@@ -1,0 +1,6 @@
+{
+  "name": "Leadership and Management Consultant Workstation",
+  "description": "An interactive consultant workstation featuring a comprehensive 1,500+ word academic comparative report, slide deck appendix with speaker notes, theoretical simulator, and automated Gemini-powered diagnostic advisor for Kapruka, Daraz, and Lassana Flora.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

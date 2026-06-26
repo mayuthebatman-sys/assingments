@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #1A1A1A;
+    background-color: #F4F1EE;
+  }
+  
+  h1, h2, h3, h4, .serif-font {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .mono-font {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Scrollbar for Neo-brutalist Panels */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F4F1EE;
+  border-left: 1px solid #1A1A1A;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5A059;
+  border: 1px solid #1A1A1A;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1A1A1A;
+}
+
+/* Slide Entry Animation */
+@keyframes slideIn {
+  from {
+    transform: translateY(12px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in {
+  animation: slideIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
